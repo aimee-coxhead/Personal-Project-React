@@ -1,0 +1,9 @@
+  .image-book {
+    height:250px;
+    width: 170px;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+ h1 {
+     text-align: center;
+ }

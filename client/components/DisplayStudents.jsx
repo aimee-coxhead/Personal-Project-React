@@ -16,7 +16,7 @@ export default class DisplayStudents extends React.Component {
 
   getStudents () {
     request
-      .get('http://localhost:3000/api/v1/routes/teacher/display-students')
+      .get('http://localhost:3000/api/v1/routes/students/display-students')
       .then(res => {
         this.setState({
           students: res.body.students
@@ -33,10 +33,10 @@ export default class DisplayStudents extends React.Component {
         <h1>Click on your  Name</h1>
         <div>
           {this.state.students.map(student => {
-            return <div key={student.id}><Link to={`/teacher/edit-timetable/${student.id}`}>{student.name} <img src={student.profile_photo} /></Link></div>
+            return <div key={student.id}><Link to={`/students/update-timetable/${student.id}`}>{student.name} <img src={student.profile_photo} /></Link></div>
           })}
         </div>
-        <Link to="/teacher">Back</Link>
+        <Link to="/students">Back</Link>
       </div>
     )
   }

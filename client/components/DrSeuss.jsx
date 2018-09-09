@@ -59,7 +59,7 @@ export default function DrSeuss (props) {
           <a href=""><img className="image-book" src="/images/DrSeussBooks/TenApplesUpOnTop.jpg" /><h5>Ten Apples Up on Top</h5></a>
         </div>
         <div class="three columns">
-          <a href=""><img className="image-book" src="" /><h5>Oh The Thinks You can Think</h5></a>
+          <a href=""><img className="image-book" src="/images/DrSeussBooks/OhTheThinksYouCanThink.jpg" /><h5>Oh The Thinks You can Think</h5></a>
         </div>
       </div>
       <div class="row">

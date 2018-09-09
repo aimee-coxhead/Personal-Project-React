@@ -9,6 +9,9 @@ export default function Students (props) {
       <Link to= "/students/display-timetable">
         <button>Display Timetable</button>
       </Link>
+      <Link to="/students/display-students">
+        <button>Edit Daily 5 Timetable</button>
+      </Link>
       <div>
         <h2>Activities</h2>
         <Link to="/students/listen-to-reading">

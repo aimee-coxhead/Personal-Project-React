@@ -1,8 +1,11 @@
+const knex = require('knex')
+const config = require('../knexfile').development
+const conn = knex(config)
+
 module.exports = {
-  getFruits
+  getStudents
 }
 
-function getFruits () {
-  const fruits = ['banana', 'apple', 'feijoa']
-  return Promise.resolve(fruits)
+function getStudents () {
+  return conn('students').select()
 }

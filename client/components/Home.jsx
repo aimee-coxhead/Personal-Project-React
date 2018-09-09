@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Home (props) {
   return (
     <div>
-      <div>Welcome!</div>
+      <h1>Welcome!</h1>
       <Link to="/students">
         <button>Students</button>
       </Link>

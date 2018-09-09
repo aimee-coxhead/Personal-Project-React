@@ -5,8 +5,16 @@ export default function Teacher (props) {
 
   return (
     <div>
-      <div>Teacher's Page</div>
-      <Link to="/">Go Home</Link>
+      <h1>Teacher's Page</h1>
+      <Link to="/teacher/display-students">
+        <button>Edit Daily 5 Timetable</button>
+      </Link>
+      <button>Add Student</button>
+      <button>Edit Student</button>
+      <button>Delete Student</button>
+      <div>
+        <Link to="/">Go Home</Link>
+      </div>
     </div>
   )
 }

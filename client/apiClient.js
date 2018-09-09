@@ -1,4 +1,4 @@
-import request from 'superagent'
+/* import request from 'superagent'
 
 const rootUrl = '/api/v1'
 
@@ -8,3 +8,4 @@ export function getFruits () {
       return res.body.fruits
     })
 }
+*/

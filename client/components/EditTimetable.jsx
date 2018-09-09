@@ -5,8 +5,8 @@ export default function EditTimetable (props) {
 
   return (
     <div>
-      <div>Choose Your Activities</div>
-      <Link to="/">Go Home</Link>
+      <h1>Choose Your Activities</h1>
+      <Link to="/teacher">Go Home</Link>
     </div>
   )
 }

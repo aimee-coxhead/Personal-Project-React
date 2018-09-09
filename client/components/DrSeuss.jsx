@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function DisplayTimetable (props) {
+export default function DrSeuss (props) {
 
   return (
     <div>
-      <h1>Daily 5 Timetable</h1>
+      <h1>Dr. Seuss Books</h1>
+      <div>
       <Link to="/students">Go Home</Link>
+      </div>
     </div>
   )
 }

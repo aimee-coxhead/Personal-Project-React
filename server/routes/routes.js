@@ -4,11 +4,11 @@ const db = require('../db')
 
 const router = express.Router()
 
-router.get('/', (req, res) => {
-  db.getFruits()
-    .then(fruits => {
-      res.json({fruits})
+router.get('/teacher/display-students', (req, res) => {
+  db.getStudents()
+    .then(students => {
+      res.json({students})
     })
-})
+  })
 
 module.exports = router

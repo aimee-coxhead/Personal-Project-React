@@ -10,6 +10,8 @@ import DisplayTimetable from './DisplayTimetable'
 import ListenToReading from './ListenToReading'
 import DrSeuss from './DrSeuss'
 import WordWork from './WordWork'
+import Animals from './Animals'
+import Random from './Random'
 
 const App = props => {
   return (
@@ -22,6 +24,8 @@ const App = props => {
         <Route path='/students/update-timetable/:id' component={UpdateTimetable} />
         <Route exact path='/students/listen-to-reading' component={ListenToReading} />
         <Route path='/students/listen-to-reading/dr-seuss' component={DrSeuss} />
+        <Route path='/students/listen-to-reading/animals' component={Animals} />
+        <Route path='/students/listen-to-reading/random' component={Random} />
         <Route exact path='/students/word-work' component={WordWork} />
         <Route exact path='/teacher' component={Teacher} />
       </div>

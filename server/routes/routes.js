@@ -24,4 +24,14 @@ router.get('/students/display-timetable', (req, res) => {
       })
   })
 
+router.post('/students/update-timetable/:id', (req, res) => {
+
+    db.updateTimetable()
+    .then(timetable => {
+        res.json({timetable})
+      })
+      .catch(err => {
+        res.status(500).send('DATABASE ERROR: ' + err.message)
+      })
+  })
 module.exports = router

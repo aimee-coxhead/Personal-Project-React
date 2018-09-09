@@ -10,6 +10,12 @@ export default function ListenToReading (props) {
         <Link to="/students/listen-to-reading/dr-seuss">
            <button>Dr. Seuss Books</button>
         </Link>
+        <Link to="/students/listen-to-reading/animals">
+           <button>Animals</button>
+        </Link>
+        <Link to="/students/listen-to-reading/random">
+           <button>Random</button>
+        </Link>
         </div>
         <div>
           <Link to="/students">Go Home</Link>

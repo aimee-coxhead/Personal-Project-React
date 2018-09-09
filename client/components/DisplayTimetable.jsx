@@ -33,7 +33,7 @@ render () {
     <h1>Daily 5 Timetable</h1>
     <div>
           {this.state.timetable.map(timetableRow => {
-            return <div key={timetableRow.id}>{timetableRow.name} {timetableRow.task_1} {timetableRow.task_2}</div>
+            return <div key={timetableRow.id}>{timetableRow.name} {timetableRow.task_1} {timetableRow.task_2} {timetableRow.task_3} {timetableRow.task_4} {timetableRow.task_5}</div>
           })}
         </div>
     <Link to="/students">Go Home</Link>

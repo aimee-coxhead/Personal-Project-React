@@ -5,7 +5,7 @@ export default function DrSeuss (props) {
 
   return (
     <div>
-      <h1>Dr. Seuss Books</h1>
+      <h1>Dr. Seuss</h1>
       <div class="row">
         <div class="three columns">
           <a href="https://safeshare.tv/x/rxwGLjQbYzA"><img className="image-book" src="/images/DrSeussBooks/HowTheGrinchStoleChristmas.jpeg" /><h5>How the Grinch Stole Christmas!</h5></a>

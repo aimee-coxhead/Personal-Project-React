@@ -64,16 +64,16 @@ export default function DrSeuss (props) {
       </div>
       <div class="row">
         <div class="three columns">
-          <a href=""><img className="image-book" src="" /><h5>Sleep Book</h5></a>
+          <a href=""><img className="image-book" src="/images/DrSeussBooks/SleepBook.jpg" /><h5>Sleep Book</h5></a>
         </div>
         <div class="three columns">
-          <a href=""><img className="image-book" src="" /><h5>The Cat in the Hat Comes Back</h5></a>
+          <a href=""><img className="image-book" src="/images/DrSeussBooks/TheCatInTheHatComesBack.jpg" /><h5>The Cat in the Hat Comes Back</h5></a>
         </div>
         <div class="three columns">
-          <a href=""><img className="image-book" src="" /><h5>Mr. Brown Can Moo, Can You?</h5></a>
+          <a href=""><img className="image-book" src="/images/DrSeussBooks/MrBrownCanMooCanYou.jpg" /><h5>Mr. Brown Can Moo, Can You?</h5></a>
         </div>
         <div class="three columns">
-          <a href=""><img className="image-book" src="" /><h5>In a People House</h5></a>
+          <a href=""><img className="image-book" src="/images/DrSeussBooks/InAPeopleHouse.jpg" /><h5>In a People House</h5></a>
         </div>
       </div>
       <div class="row">

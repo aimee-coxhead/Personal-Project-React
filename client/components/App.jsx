@@ -12,6 +12,8 @@ import DrSeuss from './DrSeuss'
 import WordWork from './WordWork'
 import Animals from './Animals'
 import Random from './Random'
+import AddStudent from './AddStudent'
+import DeleteStudent from './DeleteStudent'
 
 const App = props => {
   return (
@@ -28,6 +30,8 @@ const App = props => {
         <Route path='/students/listen-to-reading/random' component={Random} />
         <Route exact path='/students/word-work' component={WordWork} />
         <Route exact path='/teacher' component={Teacher} />
+        <Route path='/teacher/add-student' component={AddStudent} />
+        <Route path='/teacher/delete-student' component={DeleteStudent} />
       </div>
     </Router>
   )

@@ -25,8 +25,9 @@ router.get('/students/display-timetable', (req, res) => {
   })
 
 router.post('/students/update-timetable/:id', (req, res) => {
-
-    db.updateTimetable()
+  let id = req.params.id
+  console.log(req.body)
+    db.updateTimetable(id, req.body)
     .then(timetable => {
         res.json({timetable})
       })

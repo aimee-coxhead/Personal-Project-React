@@ -33,7 +33,7 @@ export default class DisplayStudents extends React.Component {
         <h1>Click on your  Name</h1>
         <div>
           {this.state.students.map(student => {
-            return <div key={student.id}><Link to={`/students/update-timetable/${student.id}`}>{student.name} <img src={student.profile_photo} /></Link></div>
+            return <div key={student.id}><Link to={`/students/update-timetable/${student.timetable_Id}`}>{student.name} <img src={student.profile_photo} /></Link></div>
           })}
         </div>
         <Link to="/students">Back</Link>

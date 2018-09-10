@@ -17,13 +17,13 @@ function getTimetable () {
     .join('timetable', 'students.timetable_Id', 'timetable.id')
     .select()
 }
-function updateTimetable (id, trackedArray) {
+function updateTimetable (timetable_Id, trackedArray) {
   return conn('timetable')
-  .where('id', id)
+  .where('id', timetable_Id)
   .update({
     task_1: trackedArray[0],
     task_2: trackedArray[1],
-    task_3: ftrackedArray[2],
+    task_3: trackedArray[2],
     task_4: trackedArray[3],
     task_5: trackedArray[4],
   })

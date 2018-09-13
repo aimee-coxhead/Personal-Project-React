@@ -6,6 +6,7 @@ export default function AddStudent (props) {
   return (
     <div>
       <h1>Teacher's Page</h1>
+      <h2>Students</h2>
       <div className="row">
       <Link to= "/teacher/add-student">
       <button className="buttons">Add Student</button>
@@ -16,6 +17,9 @@ export default function AddStudent (props) {
       <Link to= "/teacher/display-students-update">
       <button className="buttons">Update Student</button>
       </Link>
+      </div>
+      <h2>Activities</h2>
+      <div className="row">
       <Link to= "/teacher/add-book">
       <button className="buttons">Add a book</button>
       </Link>

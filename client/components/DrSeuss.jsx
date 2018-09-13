@@ -160,9 +160,9 @@ export default function DrSeuss (props) {
           <a href=""><img className="image-book" src="" /><h5>On Beyond Zebra</h5></a>
         </div>
       </div>
-      <div>
-        <Link to="/students"><button>Go Home</button></Link>
-        <Link to="/students/listen-to-reading"><button>Go Back</button></Link>
+      <div className="row">
+        <Link to="/students"><button className="buttons">Go Home</button></Link>
+        <Link to="/students/listen-to-reading"><button className="buttons">Go Back</button></Link>
       </div>
     </div>
   )

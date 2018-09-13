@@ -29,14 +29,14 @@ export default class DisplayTimetable extends React.Component {
 
 render () {
     return (
-  <div>
-    <h1>Daily 5 Timetable</h1>
-    <div>
-          {this.state.timetable.map(timetableRow => {
-            return <div key={timetableRow.id}>{timetableRow.name} {timetableRow.task_1} {timetableRow.task_2} {timetableRow.task_3} {timetableRow.task_4} {timetableRow.task_5}</div>
-          })}
-        </div>
-    <Link to="/students">Go Home</Link>
-  </div>
-)}
-}
+      <div>
+      <h1>Daily 5 Timetable</h1>
+      <div>
+            {this.state.timetable.map(timetableRow => {
+              return <div key={timetableRow.id}>{timetableRow.name} {timetableRow.task_1} {timetableRow.task_2} {timetableRow.task_3} {timetableRow.task_4} {timetableRow.task_5}</div>
+            })}
+          </div>
+      <Link to="/students"><button className="buttons">Go Home</button></Link>
+    </div>
+  )}
+  }

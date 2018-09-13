@@ -6,19 +6,19 @@ export default function ListenToReading (props) {
     return (
       <div>
         <h1>Listen to Reading</h1>
-        <div>
+        <div className="row">
         <Link to="/students/listen-to-reading/dr-seuss">
-           <button>Dr. Seuss Books</button>
+           <button className="buttons">Dr. Seuss Books</button>
         </Link>
         <Link to="/students/listen-to-reading/animals">
-           <button>Animals</button>
+           <button className="buttons">Animals</button>
         </Link>
         <Link to="/students/listen-to-reading/random">
-           <button>Random</button>
+           <button className="buttons">Random</button>
         </Link>
         </div>
         <div>
-          <Link to="/students">Go Home</Link>
+          <Link to="/students"><button className="buttons">Go Home</button></Link>
         </div>
       </div>
     )

@@ -1,16 +1,101 @@
-  .image-book {
-    height:300px;
-    width: 200px;
-    box-shadow: 5px 10px 8px #888888;
+body {
+  background: url(/images/Background.png);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  padding: 50px;
+  font-size: 500px;
+}
+
+.image-book {
+    height:350px;
+    width: 250px;
+    border: 3px solid #fff;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
- h1 {
-     text-align: center;
+ h5 {
+    font-size: 30px;
+    color: black;
+    background: white;
+    width: 256px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  border-style: double;
+  border-width: 5px;
+  color: black;
+}
+
+
+ a {
+  text-decoration: none;
  }
 
- h5 {
-    text-align: center;
+ a h5 {
+  font-size: 15px;
+  font-weight: bold;
+ }
+
+ .buttons {
+   background-color: white;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'Fredoka One', cursive;
+   margin-bottom: 80px;
+ }
+
+ h2{
+  text-align: center;
+  color: black;
+  font-family: 'Fredoka One', cursive;
+ }
+
+@media (min-width: 550px){
+h1 {
+  font-size: 500px;
 }
+}
+
+form {
+  text-align: center;
+}
+
+.button-back {
+background-color: grey;
+color: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4{
+  color: black;
+  font-family: 'Fredoka One', cursive;
+ }
+
+ .button-choice{
+  background-color: white;
+ }
+ 

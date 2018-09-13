@@ -5,12 +5,14 @@ export default function Home (props) {
   return (
     <div>
       <h1>Welcome!</h1>
+      <div className="row">
       <Link to="/students">
-        <button>Students</button>
+        <button className="buttons">Students</button>
       </Link>
       <Link to="/teacher">
-        <button>Teacher</button>
+        <button className="buttons">Teacher</button>
       </Link>
+      </div>
     </div>
   )
 }

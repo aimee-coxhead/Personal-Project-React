@@ -14,6 +14,9 @@ import Animals from './Animals'
 import Random from './Random'
 import AddStudent from './AddStudent'
 import DeleteStudent from './DeleteStudent'
+import DisplayStudentsUpdate from './DisplayStudentsUpdate'
+import UpdateStudent from './UpdateStudent'
+import AddBook from './AddBook'
 
 const App = props => {
   return (
@@ -32,6 +35,9 @@ const App = props => {
         <Route exact path='/teacher' component={Teacher} />
         <Route path='/teacher/add-student' component={AddStudent} />
         <Route path='/teacher/delete-student' component={DeleteStudent} />
+        <Route path='/teacher/display-students-update' component={DisplayStudentsUpdate} />
+        <Route path='/teacher/update-student/:id' component={UpdateStudent} />
+        <Route path='/teacher/add-book' component={AddBook} />
       </div>
     </Router>
   )

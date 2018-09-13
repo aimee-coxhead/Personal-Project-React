@@ -45,7 +45,7 @@ render () {
           <h1>Choose Your Activities in Order</h1>
           <div>
           {this.state.options.map(option => {
-            return <button onClick={() => this.handleClick(option)}>{option}</button>})
+            return <button calssName="button-choice" onClick={() => this.handleClick(option)}>{option}</button>})
           }
           </div>
         </div>

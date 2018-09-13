@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import request from 'superagent'
 
-export default class DisplayStudents extends React.Component {
+export default class DisplayStudentsUpdate extends React.Component {
   constructor (props)  {
   super (props)
   this.state = {
      students: []
+     
     }
   }
 
@@ -30,10 +31,10 @@ export default class DisplayStudents extends React.Component {
   render () {
     return (
       <div>
-        <h1>Click on your Name or Photo</h1>
+        <h1>Click on the Name or Photo of the child you would like to Update</h1>
         <div>
           {this.state.students.map(student => {
-            return <div key={student.id}><Link to={`/students/update-timetable/${student.timetable_Id}`}><img className='image' src={student.profile_photo} /><h4>{student.name}</h4></Link></div>
+            return <div key={student.id}><Link to={`/teacher/update-student/${student.timetable_Id}`}><div className="student"><img className='image' src={student.profile_photo} /><h4>{student.name}</h4></div></Link></div>
           })}
         </div>
         <Link to="/students"><button>Back</button></Link>
